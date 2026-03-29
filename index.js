@@ -12,10 +12,7 @@ function sum(a, b) {
  * @returns {string} The reversed string.
  */
 function reverseString(str) {
-  //hello 
-  // h e l l o
-  // o l l e h
-  // olleh
+
   return str.split('').reverse().join('')
 }
 
